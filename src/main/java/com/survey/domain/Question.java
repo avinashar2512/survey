@@ -1,5 +1,5 @@
 
-package com.marketlogic.survey.domain;
+package com.survey.domain;
 
 import java.util.List;
 

@@ -1,11 +1,11 @@
-package com.marketlogic.survey.repository;
+package com.survey.repository;
 
 import java.util.List;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.marketlogic.survey.domain.Question;
+import com.survey.domain.Question;
 @Repository
 public interface QuestionRepository extends CrudRepository<Question, Long> {
 	List<Question> findByQuestionText(String question);

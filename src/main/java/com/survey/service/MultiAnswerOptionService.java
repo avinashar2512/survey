@@ -1,10 +1,10 @@
-package com.marketlogic.survey.service;
+package com.survey.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.marketlogic.survey.domain.MultiAnswerOption;
-import com.marketlogic.survey.repository.MultiAnswerOptionRepository;
+import com.survey.domain.MultiAnswerOption;
+import com.survey.repository.MultiAnswerOptionRepository;
 @Service
 public class MultiAnswerOptionService implements IMultiAnswerOptionService {
 

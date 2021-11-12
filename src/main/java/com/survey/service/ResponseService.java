@@ -1,4 +1,4 @@
-package com.marketlogic.survey.service;
+package com.survey.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,10 +7,10 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.marketlogic.survey.domain.Answer;
-import com.marketlogic.survey.domain.Respondent;
-import com.marketlogic.survey.repository.AnswerRepository;
-import com.marketlogic.survey.repository.QuestionRepository;
+import com.survey.domain.Answer;
+import com.survey.domain.Respondent;
+import com.survey.repository.AnswerRepository;
+import com.survey.repository.QuestionRepository;
 @Service
 public class ResponseService implements IResponseService {
 

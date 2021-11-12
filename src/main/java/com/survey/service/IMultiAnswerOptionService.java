@@ -1,6 +1,6 @@
-package com.marketlogic.survey.service;
+package com.survey.service;
 
-import com.marketlogic.survey.domain.MultiAnswerOption;
+import com.survey.domain.MultiAnswerOption;
 
 public interface IMultiAnswerOptionService {
 

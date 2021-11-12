@@ -1,4 +1,4 @@
-package com.marketlogic.survey.controller;
+package com.survey.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.marketlogic.survey.domain.Answer;
-import com.marketlogic.survey.repository.AnswerRepository;
-import com.marketlogic.survey.repository.QuestionRepository;
-import com.marketlogic.survey.service.IResponseService;
+import com.survey.domain.Answer;
+import com.survey.repository.AnswerRepository;
+import com.survey.repository.QuestionRepository;
+import com.survey.service.IResponseService;
 
 @RestController
 @RequestMapping("/responses")

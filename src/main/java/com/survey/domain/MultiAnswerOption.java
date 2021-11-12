@@ -1,4 +1,4 @@
-package com.marketlogic.survey.domain;
+package com.survey.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

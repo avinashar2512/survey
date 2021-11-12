@@ -1,4 +1,4 @@
-package com.marketlogic.survey.domain;
+package com.survey.domain;
 
 import java.util.List;
 
@@ -6,6 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Transient;
 
 @Entity
 public class Respondent {
@@ -14,6 +15,7 @@ public class Respondent {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long RespondentID;
 
+	@Transient
 	private List<Answer> answerList;
 
 	public Respondent(List<Answer> answers) {

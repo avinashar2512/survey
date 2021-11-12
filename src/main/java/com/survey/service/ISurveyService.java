@@ -1,8 +1,8 @@
-package com.marketlogic.survey.service;
+package com.survey.service;
 
 import java.util.List;
 
-import com.marketlogic.survey.domain.Survey;
+import com.survey.domain.Survey;
 
 public interface ISurveyService {
 
